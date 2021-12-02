@@ -264,6 +264,7 @@ type SetDashboardParams struct {
 	FolderID   int
 	Overwrite  bool
 	PreserveId bool `json:"-"`
+	Message    string
 }
 
 // SetDashboard updates existing dashboard or creates a new one.
